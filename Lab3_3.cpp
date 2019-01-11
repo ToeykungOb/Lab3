@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    double n=6,total=0;
-    while(n<20){
+    double n=2,total=0;
+    while(n<70){
         total=total+(1/n);
         n++;
     }
