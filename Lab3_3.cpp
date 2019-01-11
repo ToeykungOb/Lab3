@@ -3,8 +3,11 @@
 using namespace std;
 
 int main(){
-
-    cout << "Hello";
-
+    double n=6,total=0;
+    while(n<20){
+        total=total+(1/n);
+        n++;
+    }
+    cout<<total<<endl;
     return 0;
 }
